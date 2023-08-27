@@ -1,0 +1,148 @@
+/* Add CSS here */
+
+body{
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: rgb(247, 247, 247);
+}
+
+header{
+    display: flex;
+    height: 45px;
+    gap: 30px;
+    padding-top: 55px;
+    background-color: rgb(255, 255, 255);
+    
+}
+header p{
+    cursor: pointer;
+    opacity: .6;
+}
+header #one{
+    margin-left: 80px;
+}
+
+header img{
+    width: 18px;
+    height: 18px;
+    margin-top: 15px;
+    position: absolute;
+    margin-left: 588px;
+    opacity: .6;
+}
+header input{
+    width: 100px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left:150px;
+    border: none;
+    outline: none;
+    
+}
+header input::placeholder{
+    opacity: .6;
+}
+
+
+header span{
+    color: rgb(9, 9, 249);
+    border-bottom: rgba(204, 192, 192, 0.793) solid;
+}
+
+.head{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.main{
+    display: flex;
+    margin-left: 80px;
+    margin-right: 10px;
+    height: 40px;
+    
+}
+
+.main span{
+    color: rgb(9, 9, 249);
+    margin-left: 475px;
+    font-size: x-small;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+
+.new-game{
+    display: flex;
+    margin-left: 80px;
+    margin-top: 0px;
+    
+    background-color: rgb(255, 255, 255);
+    width: 600px;
+}
+
+
+.new-game #pic{
+    width: 200px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.new-game .low{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.low p{
+    
+    padding-left: 5px;
+    font-size: x-small;
+}
+.new-game #rate {
+    height: 20px;
+    width: 60px;
+    margin-top: 5px;
+}
+
+.mid{
+    display: flex;
+    flex-direction: column;
+}
+
+.mid span{
+    color: rgb(9, 9, 249);
+    margin-left: 405px;
+    font-size: x-small;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+
+
+.rec-game{
+    display: flex;
+    margin-left: 80px;
+    margin-top: 0px;
+    
+}
+.rec-game #rg {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.rec-game .md{
+    display: flex;
+    justify-content: space-between;
+}
+.rec-game #rate {
+    height: 20px;
+    width: 45px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.md p{
+    font-size: x-small;
+    opacity: .5;
+    margin-right: 5px;
+}
